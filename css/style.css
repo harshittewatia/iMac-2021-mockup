@@ -1,0 +1,87 @@
+body {
+    margin: 0%;
+    height: 100vmin;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, #FFD28F, #FFDCA6, #FFE9C4, #FAEFE2, #FBF4DA, #FFF1D7, #FFF0D9, #FFF1DC, #FFF2E1, #FFE0B1, #FFD696, #FFD088);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Display */
+
+.imac {
+    margin-top: 50px;
+    width: 600px;
+    height: 430px;
+    background-color: #F9D694;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen {
+    width: 600px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.camera {
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display {
+    width: 560px;
+    height: 320px;
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wallpaper {
+    height: 320px;
+    width: 560px;
+    object-fit: cover;
+}
+
+/* Stand */
+
+.stand {
+    width: 150px;
+    height: 80px;
+    background-image: linear-gradient(#CBAC7D, #D1B381, #DDBD8A, #E4C491, #E8C895, #ECCB8E);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.base {
+    margin-top: -2px;
+    width: 160px;
+    height: 12px;
+    border-radius: 12px 12px 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#CBAC7D, #D1B381, #ECCC9B, #f1d19c, #E8C895, #ECCB8E);
+}
+
+.name {
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #282828;
+    text-align: center;
+}
+
+.apple {
+    font-size: 25px;
+}
