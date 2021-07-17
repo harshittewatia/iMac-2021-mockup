@@ -1,7 +1,7 @@
 body {
     margin: 0%;
-    height: 100vmin;
     width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(to bottom right, #FFD28F, #FFDCA6, #FFE9C4, #FAEFE2, #FBF4DA, #FFF1D7, #FFF0D9, #FFF1DC, #FFF2E1, #FFE0B1, #FFD696, #FFD088);
 }
 
@@ -9,12 +9,22 @@ body {
     display: none;
 }
 
+.appleMac {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* Front */
+
 /* Display */
 
 .imac {
-    margin-top: 50px;
-    width: 600px;
-    height: 430px;
+    margin-top: 100px;
+    width: 500px;
+    height: 330px;
     background-color: #F9D694;
     border-radius: 10px;
     display: flex;
@@ -23,51 +33,50 @@ body {
 }
 
 .screen {
-    width: 600px;
-    height: 360px;
+    width: 500px;
+    height: 270px;
     background-color: white;
     border-radius: 10px 10px 0px 0px;
 }
 
 .camera {
     background-color: black;
-    height: 5px;
-    width: 5px;
+    height: 4px;
+    width: 4px;
     border-radius: 50%;
-    margin-top: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .display {
-    width: 560px;
-    height: 320px;
+    width: 470px;
+    height: 240px;
     border: 1px solid rgb(180, 180, 180);
-    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .wallpaper {
-    height: 320px;
-    width: 560px;
+    height: 240px;
+    width: 470px;
     object-fit: cover;
 }
 
 /* Stand */
 
 .stand {
-    width: 150px;
-    height: 80px;
+    width: 130px;
+    height: 70px;
     background-image: linear-gradient(#CBAC7D, #D1B381, #DDBD8A, #E4C491, #E8C895, #ECCB8E);
     margin-left: auto;
     margin-right: auto;
 }
 
 .base {
-    margin-top: -2px;
-    width: 160px;
-    height: 12px;
+    width: 140px;
+    height: 10px;
     border-radius: 12px 12px 2px 2px;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +84,7 @@ body {
 }
 
 .name {
-    margin-top: 1%;
+    margin-top: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: #282828;
@@ -84,4 +93,125 @@ body {
 
 .apple {
     font-size: 25px;
+}
+
+/* Back */
+
+.back {
+    margin-top: 100px;
+    width: 500px;
+    height: 330px;
+    background-image: linear-gradient(to bottom right, #FFC261, #F3B048, #F2A93B, #E99C26, #E3941E, #DF901A);
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 80px;
+    margin-top: 80px;
+}
+
+.stand-back {
+    border-radius: 5px 5px 0px 0px;
+    width: 130px;
+    height: 220px;
+    background-image: linear-gradient(#b99866, #D1B381, #DDBD8A, #E4C491, #E8C895, #ECCB8E);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -110px;
+}
+
+.space {
+    height: 70px;
+    width: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 50px;
+    background-color: #DA8E1E;
+    display: flex;
+}
+
+.screw {
+    background-color: #2D2D2D;
+    width: 28px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.smallScrew {
+    background-color: #676767;
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 6px;
+    display: flex;
+}
+
+.blackScrew {
+    background-color: black;
+    width: 8px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 5px;
+    display: flex;
+}
+
+.base-back {
+    width: 132px;
+    height: 10px;
+    border: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#CBAC7D, #D1B381, #ECCC9B, #f1d19c, #E8C895, #ECCB8E);
+}
+
+.conatiner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grill-container {
+    display: flex;
+}
+
+.grill {
+    border: 50px;
+    background-color: black;
+    height: 10px;
+    width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.power {
+    background-color: #e49218;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 40px#444444;
+    margin-top: -10px;
+}
+
+.power-btn {
+    margin-top: 4px;
+    color: white;
 }
